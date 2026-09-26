@@ -1,0 +1,4 @@
+Setup for Angular CLI
+npm  install -g @angular/cli
+np version
+ng new my-first-app
