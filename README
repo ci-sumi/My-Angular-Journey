@@ -2,3 +2,23 @@ Setup for Angular CLI
 npm  install -g @angular/cli
 np version
 ng new my-first-app
+package.json
+it keeps track of all the libraries your project needs and the commands to run or build your application
+Node_mdules
+NPM reads that package.json file and all those libraries from the internet into a folder named node_modules.
+
+Summary of Node.js,NPM,ANgular CLI,package.json & node_modules work together
+Install Node.js
+[Install NPM with Node.js]
+NPM Installs Angular CLI
+[Angular CLI is insatlled globally using NPM]
+Angular CLI creates New project  and package.json
+Using NPM tools node modules download listed item in pacakge.json
+
+Explain the basic Folder Structure of an Angular Project
+node_modules/ Contains all third party libraries used by Angular
+pulic/ Stores static assets like images
+src/ Where developers write actual application code
+app/ Core Angular folder forcomponents and business logic
+
+What is the purpose of the ng serve command in Angular? How to stop running Application?
